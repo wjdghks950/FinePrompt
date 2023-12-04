@@ -1,6 +1,4 @@
-# TODO: Assign each prompt into BASE_PROMP_DICT
-
-BASE_PROMPT_DICT = {}
+BASE_PROMPT_DICT = {}  # Assign each prompt into BASE_PROMP_DICT
 
 base_self_ask_prompt = '''
 You are a question answering assistant.
@@ -206,8 +204,8 @@ Evidence: P1, P3, ...
 
 BASE_PROMPT_DICT['base_drop_prompt'] = base_drop_prompt
 BASE_PROMPT_DICT['base_musique_prompt'] = base_musique_prompt
-BASE_PROMPT_DICT['base_self_ask_prompt'] = base_self_ask_prompt
-BASE_PROMPT_DICT['base_cot_prompt'] = base_cot_prompt
+BASE_PROMPT_DICT['selfask_prompt_base'] = base_self_ask_prompt
+BASE_PROMPT_DICT['cot_prompt_base'] = base_cot_prompt
 BASE_PROMPT_DICT['genbert_prompt_base'] = genbert_prompt_base
 BASE_PROMPT_DICT['numnet_prompt_base'] = numnet_prompt_base
 BASE_PROMPT_DICT['qdgat_prompt_base'] = qdgat_prompt_base
@@ -216,3 +214,6 @@ BASE_PROMPT_DICT['quark_prompt_base'] = quark_prompt_base
 BASE_PROMPT_DICT['sae_prompt_base'] = sae_prompt_base
 
 # TODO: Refactor the in-context example generation codes into this file
+
+def construct_fewshot(sample_data, bias_type="qdgat", k=3):
+    pass
