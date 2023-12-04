@@ -4,7 +4,9 @@ Our work deals with the idea of transferring task-specific inductive biases from
 
 ## Setting Up the Environment
 Since this work only deals with the effective prompting on GPT-4, our work requires the installation of the `openai` API.
->> pip install openi
+```shell
+pip install openi
+```
 
 ## Prompts
 The set of base and in-context prompts are provided in the `prompts.py`, and setting up the in-context samples requires the adoption code bases from the following works:
