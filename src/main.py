@@ -8,7 +8,7 @@ from utils import *
 from tqdm import tqdm
 
 # OpenAI query module
-openai.api_key = "<YOUR OPENAI API KEY>"  # "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"
+openai.api_key = "<YOUR OPENAI API KEY>"  # "sk-xxxx"
 
 def openai_gpt_call(system_prompt, user_prompt, model, temp=0.0):
     messages = [
