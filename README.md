@@ -19,12 +19,11 @@ The set of base and in-context prompts are provided in the `prompts.py`.
 
 ## Bibtex Citation
 ```Bibtex
-@inproceedings{
-	kim2023fineprompt,
-	title={FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in {GPT}-4},
-	author={Jeonghwan Kim and Giwon Hong and Sung-Hyon Myaeng and Joyce Jiyoung Whang},
-	booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
-	year={2023},
-	url={https://openreview.net/forum?id=nmSvzxwfRZ}
+@inproceedings{kim2023fineprompt,
+        author={Jeonghwan Kim and Giwon Hong and Sung-Hyon Myaeng and Joyce Jiyoung Whang},
+        title={FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in {GPT}-4},
+        booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+        year={2023},
+        pages={3763--3775}
 }
 ```
